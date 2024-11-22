@@ -3,8 +3,8 @@ ver=$1  # snp ver (try1 folder name)
 region=$2 # region=$2 #start31.7end32.2QUAL30
 haplonetver=$3 # ver2_best
 
-folderpath="specify_the_path" # specify the working directory path
-codepath="specify_the_path" # specify the path to the code files
+folderpath="~~~~" # specify the working directory path
+codepath="~~~~" # specify the path to the code files
 
 mkdir ${folderpath}/0.vcf_to_plink
 mkdir ${folderpath}/1.HLA_for_NomenCleaner
