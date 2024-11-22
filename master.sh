@@ -3,15 +3,15 @@ ver=$1  # snp ver (try1 folder name)
 region=$2 # region=$2 #start31.7end32.2QUAL30
 haplonetver=$3 # ver2_best
 
-folderpath="/kimlab_wd/yuo1996/C4_HLA_ref/try6_asnpqc_intronrm_with_Eagle_IMPUTE5/KIH_combine/"
-codepath="/kimlab_wd/yuo1996/C4_HLA_ref/try6_asnpqc_intronrm_with_Eagle_IMPUTE5/KIH_combine/code/"
+folderpath="~~~" # specify the working directory path
+codepath="~~~" # specify the path to the code files
 
-# mkdir ${folderpath}/0.vcf_to_plink
-# mkdir ${folderpath}/1.HLA_for_NomenCleaner
-# mkdir ${folderpath}/2.MakeReference_with_HLA
-# mkdir ${folderpath}/3.phasing_with_Beagle_C4_HLA
-# mkdir ${folderpath}/5.Imputation_C4HLA_using_Beagle
-# mkdir ${folderpath}/7.Accuracy
+mkdir ${folderpath}/0.vcf_to_plink
+mkdir ${folderpath}/1.HLA_for_NomenCleaner
+mkdir ${folderpath}/2.MakeReference_with_HLA
+mkdir ${folderpath}/3.phasing_with_Beagle_C4_HLA
+mkdir ${folderpath}/5.Imputation_C4HLA_using_Beagle
+mkdir ${folderpath}/7.Accuracy
 
 mkdir ${folderpath}/0.vcf_to_plink/${ver}
 #mkdir ${folderpath}/1.HLA_for_NomenCleaner/${ver} # 필요없음 합쳐서 가는거로 수정.
