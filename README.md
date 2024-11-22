@@ -1,2 +1,2 @@
 # MHC-_reference_panel
-codes for construction of MHC reference panel!!
+Scripts for constructing the MHC reference panel are provided; begin by referring to 'master.sh'
